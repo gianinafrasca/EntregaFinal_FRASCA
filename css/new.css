@@ -225,5 +225,26 @@
 
 /* ESTILO CLASSES */
 
+#pict{
+    width:50%;
+    height:50%;
+    padding-top: 10px;
+    padding-bottom: 20px;
+}
 
+h1{
+    padding-bottom: 10px;
+    padding-top: 10px;
+}
 
+.clases{
+    padding-right: 30px;
+    padding-left: 30px;
+    background-color: lightpink;
+    border-style:ridge;
+}
+
+.centrado{
+    padding-left: 0px;
+    padding-right: 0px;
+}
