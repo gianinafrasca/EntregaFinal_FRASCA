@@ -24,7 +24,6 @@
 }
 
 
-
 .text-format{
     font-family: 'Poppins', sans-serif;
     font-size: medium;
@@ -252,4 +251,13 @@ h1{
 
 /* ESTILO PLACEMENT TEST */
 
+h2{
+    padding-top: 30px;
+}
 
+.btn{
+    margin-top: 60px;
+    background-color: green;
+    font-size: 200%;
+    width:100%;
+}
