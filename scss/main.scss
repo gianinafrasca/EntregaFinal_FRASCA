@@ -1,16 +1,6 @@
-/* FORMATO ICONOS REDES */
-$tama_icons: 40px;
-$color_icons: whitesmoke;
-
-/* FORMATO FUENTES */
-$font: 'Poppins';
-$color_text_h1_content: black;
-
-/* COLORES DE FONDO */
-$color_boton: green;
-$color_classes: lightpink;
-$color_fondo_alt: lightgrey;
-$color_navbar: black;
+@import "iconos-redes";
+@import "fuentes";
+@import "colores-fondo";
 
 
 
