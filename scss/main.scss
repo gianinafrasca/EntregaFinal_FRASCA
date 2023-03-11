@@ -1,3 +1,14 @@
+$tama_icons: 40px;
+$color_icons: whitesmoke;
+$font: 'Poppins';
+$color_boton: green;
+$color_classes: lightpink;
+$color_fondo_alt: lightgrey;
+$color_text_h1_content: black;
+$color_navbar: black;
+
+
+
 /* ESTILO BARRA DE NAVEGACION */
 
 #nav-logo{
@@ -6,11 +17,11 @@
 }
 
 .bg-dark{
-    background-color: black!important;
+    background-color: $color_navbar!important;
 }
 
 .navbar{
-    font-family: 'Poppins', sans-serif;
+    font-family: $font, sans-serif;
     font-size: larger;
     color:antiquewhite;
 }
@@ -18,14 +29,14 @@
 /* ESTILO FOOTER */
 
 .icons{
-    width:40px;
-    height:40px;
-    color: whitesmoke;
+    width: $tama_icons;
+    height: $tama_icons;
+    color: $color_icons;
 }
 
 
 .text-format{
-    font-family: 'Poppins', sans-serif;
+    font-family: $font, sans-serif;
     font-size: medium;
     color:antiquewhite;
 }
@@ -77,12 +88,12 @@
     padding-left: 60px;
     padding-top: 30px;
     padding-right: 60px;
-    background-color: lightgray;
+    background-color: $color_fondo_alt;
     background-image: url("../media/background3.jpg");
     background-repeat: repeat;
-    font-family: 'Poppins', serif;
+    font-family: $font, serif;
     font-size: large;
-    color:black;
+    color: $color_text_h1_content;
 }
 
 .adjust{
@@ -239,7 +250,7 @@ h1{
 .clases{
     padding-right: 30px;
     padding-left: 30px;
-    background-color: lightpink;
+    background-color: $color_classes;
     border-style:ridge;
 }
 
@@ -257,7 +268,7 @@ h2{
 
 .btn{
     margin-top: 60px;
-    background-color: green;
+    background-color: $color_boton;
     font-size: 200%;
     width:100%;
 }
