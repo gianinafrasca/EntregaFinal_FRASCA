@@ -272,10 +272,18 @@ h2{
 
 @media only screen and (max-width: 480px) {
     .content{
+<<<<<<< HEAD
         padding-left: 20%;
         padding-right: 20%;
     }
     h1{
         padding-left: 0px;
+=======
+        padding-left: 15%;
+        padding-right: 15%;
+    }
+    h1{
+        padding-left: 0%;
+>>>>>>> f363bda6ae8854338fa0c83b350353cd23853183
     }
 }
