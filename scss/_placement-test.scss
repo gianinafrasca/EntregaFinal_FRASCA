@@ -4,7 +4,5 @@ h2{
 
 .btn{
     margin-top: 60px;
-    background-color: $color_boton;
-    font-size: 200%;
-    width:100%;
+    @include button;
 }
