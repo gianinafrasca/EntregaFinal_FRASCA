@@ -13,21 +13,21 @@
   color: antiquewhite;
 }
 
-footer icons {
+.icons {
   width: 40px;
   height: 40px;
   color: whitesmoke;
 }
-footer text-format {
+
+.text-format {
   font-family: "Poppins", sans-serif;
   font-size: medium;
   color: antiquewhite;
 }
-footer text-format foot {
+.text-format foot {
   padding-top: 10px;
 }
 
-/* EJEMPLO ANIDACION */
 .content {
   margin-top: 50px;
   padding-left: 60px;
