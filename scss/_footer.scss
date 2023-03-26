@@ -1,15 +1,21 @@
-.icons{
-    width: $tama_icons;
-    height: $tama_icons;
-    color: $color_icons;
+footer {
+
+    icons{
+        width: $tama_icons;
+        height: $tama_icons;
+        color: $color_icons;
+    }
+    
+    text-format{
+        font-family: $font, sans-serif;
+        font-size: medium;
+        color:antiquewhite;
+
+        foot{
+            padding-top: 10px;
+        }
+    }
+
 }
 
-.text-format{
-    font-family: $font, sans-serif;
-    font-size: medium;
-    color:antiquewhite;
-}
-
-.foot{
-    padding-top: 10px;
-}
+/* EJEMPLO ANIDACION */
