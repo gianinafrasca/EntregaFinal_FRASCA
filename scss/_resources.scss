@@ -2,3 +2,15 @@
     padding-top: 30px;
     padding-bottom: 70px;
 }
+
+.grid-container {
+    display: grid;
+    grid-template-columns: auto auto;
+
+    .grid-item {
+        padding: 20px;
+        font-size: 30px;
+        text-align: center;
+        align-items: center;
+      }
+}

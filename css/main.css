@@ -24,7 +24,7 @@
   font-size: medium;
   color: antiquewhite;
 }
-.text-format foot {
+.text-format .foot {
   padding-top: 10px;
 }
 
@@ -98,6 +98,17 @@ h2 {
 .margen {
   padding-top: 30px;
   padding-bottom: 70px;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: auto auto;
+}
+.grid-container .grid-item {
+  padding: 20px;
+  font-size: 30px;
+  text-align: center;
+  align-items: center;
 }
 
 /* FOOTER */
@@ -248,6 +259,12 @@ h2 {
   }
   h1 {
     padding-left: 0%;
+  }
+}
+@media only screen and (max-width: 990px) {
+  .grid-container {
+    display: grid;
+    grid-template-columns: auto;
   }
 }
 

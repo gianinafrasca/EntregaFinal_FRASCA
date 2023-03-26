@@ -23,7 +23,7 @@
     <!-- BARRA DE NAVEGACION -->
     <nav class="navbar navbar-dark bg-dark fixed-top">
         <div class="container-fluid">
-            <img id="nav-logo" src="../media/logo.JPG" alt="daticha english learning courses">
+            <a href="../index.html"><img id="nav-logo" src="../media/logo.JPG" alt="daticha english learning courses"></a>
             <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas"
                 data-bs-target="#offcanvasDarkNavbar" aria-controls="offcanvasDarkNavbar">
                 <span class="navbar-toggler-icon"></span>
@@ -67,39 +67,45 @@
             <div class="row">
                 <div class="col-lg-6 adjust">
                     <form action="#" method="GET" enctype="application/x-www-form-urlencoded" adjust>
-                        <label for="name">Name:</label>
-                        <input type="text" name="name" id="name"><br>
-
-                        <label for="email">Email:</label>
-                        <input type="email" name="email" id="email"><br>
-
-                        <label for="classes">Classes:</label>
-                        <select name="classes">
-                            <option value="GE">General English</option>
-                            <option value="EP">Exam Preparation</option>
-                            <option value="CJI">Conversation & Job Interviews</option>
-                        </select><br>
-
-
-                        <label for="level">Level:</label>
-                        <input type="radio" name="level" id="A1" value="A1">
-                        <label for="A1">A1</label>
-                        <input type="radio" name="level" id="A2" value="A2">
-                        <label for="A2">A2</label>
-                        <input type="radio" name="level" id="B1" value="B1">
-                        <label for="B1">B1</label>
-                        <input type="radio" name="level" id="B2" value="B2">
-                        <label for="B2">B2</label>
-                        <input type="radio" name="level" id="C1" value="C1">
-                        <label for="C1">C1</label>
-                        <input type="radio" name="level" id="C2" value="C2">
-                        <label for="C2">C2</label><br>
-
-                        <label for="message">Message:</label><br>
-                        <textarea name="message" id="message" cols="30" rows="10"></textarea><br>
-
-                        <input type="submit" value="Send" />
-                        <input type="reset" value="Clear" />
+                        <div>
+                            <label for="name">Name:</label>
+                            <input type="text" name="name" id="name">
+                        </div>
+                        <div>
+                            <label for="email">Email:</label>
+                            <input type="email" name="email" id="email">
+                        </div>
+                        <div>
+                            <label for="classes">Classes:</label>
+                            <select name="classes">
+                                <option value="GE">General English</option>
+                                <option value="EP">Exam Preparation</option>
+                                <option value="CJI">Conversation & Job Interviews</option>
+                            </select>
+                        </div>
+                        <div>
+                            <label for="level">Level:</label>
+                            <input type="radio" name="level" id="A1" value="A1">
+                            <label for="A1">A1</label>
+                            <input type="radio" name="level" id="A2" value="A2">
+                            <label for="A2">A2</label>
+                            <input type="radio" name="level" id="B1" value="B1">
+                            <label for="B1">B1</label>
+                            <input type="radio" name="level" id="B2" value="B2">
+                            <label for="B2">B2</label>
+                            <input type="radio" name="level" id="C1" value="C1">
+                            <label for="C1">C1</label>
+                            <input type="radio" name="level" id="C2" value="C2">
+                            <label for="C2">C2</label>
+                        </div>
+                        <div>
+                            <label for="message">Message:</label><br>
+                            <textarea name="message" id="message" cols="30" rows="10"></textarea>
+                        </div>
+                        <div>
+                            <input type="submit" value="Send" />
+                            <input type="reset" value="Clear" />
+                        </div>
                     </form>
                 </div>
                 <div class="col-lg-6 adjust animate__animated animate__slideInUp">
