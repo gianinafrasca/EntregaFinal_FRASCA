@@ -178,7 +178,7 @@
 /* PLACEMENT TEST */
 
 @media screen and (max-width: 700px) {
-    .row {   
+    .flex-container {   
       flex-direction: column;
     }
-  }
+}

@@ -99,7 +99,7 @@ h2 {
   box-sizing: border-box;
 }
 
-.row {
+.flex-container {
   display: flex;
   flex-wrap: wrap;
   align-items: center;
@@ -290,7 +290,7 @@ h2 {
 }
 /* PLACEMENT TEST */
 @media screen and (max-width: 700px) {
-  .row {
+  .flex-container {
     flex-direction: column;
   }
 }
