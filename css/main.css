@@ -299,5 +299,11 @@ h2 {
     flex-direction: column;
   }
 }
+/* CONTACT */
+@media only screen and (max-width: 400px) {
+  textarea, select, input {
+    max-width: 95%;
+  }
+}
 
 /*# sourceMappingURL=main.css.map */

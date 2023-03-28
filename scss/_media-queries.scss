@@ -16,7 +16,6 @@
     }
 }
 
-
 @media only screen and (min-width: 1230px) {
     .foot-pic{
         padding-top: 25px;
@@ -37,7 +36,6 @@
         height:45px;
         color: whitesmoke;
     }
-
 }
 
 
@@ -63,7 +61,6 @@
         width: 100%;
     }
 }
-
 
 @media only screen and (min-width: 1240px) {
     h1{
@@ -188,3 +185,10 @@
       flex-direction: column;
     }
 }
+
+/* CONTACT */
+@media only screen and (max-width: 400px) {
+    textarea, select, input {
+      max-width:95%;
+    }
+  }
